@@ -13,6 +13,7 @@ There needs to be some thought put into planning this out.
 Should be simple enough. Check time. Remove trash.
 
 For the Second step we may have to use HTTP Requests. Not yet seen a natural go method for batchDelete.
+I was wrong, <https://pkg.go.dev/google.golang.org/api/gmail/v1#UsersMessagesBatchDeleteCall> there is a go method for batchDelete.
 
 ### Steps
 - First
